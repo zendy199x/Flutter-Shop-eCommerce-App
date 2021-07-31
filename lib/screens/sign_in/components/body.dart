@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:shop_ecommerce/components/no_account_text.dart';
-import 'package:shop_ecommerce/components/sign_form.dart';
+import 'package:shop_ecommerce/screens/sign_in/components/sign_in_form.dart';
 import 'package:shop_ecommerce/components/social_card.dart';
+import 'package:shop_ecommerce/constants.dart';
 import 'package:shop_ecommerce/size_config.dart';
 
 class Body extends StatelessWidget {
@@ -23,11 +24,7 @@ class Body extends StatelessWidget {
                 SizedBox(height: SizeConfig.screenHeight! * 0.04),
                 Text(
                   "Welcome Back",
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: getProportionateScreenWidth(28),
-                    fontWeight: FontWeight.bold,
-                  ),
+                  style: headingStyle,
                 ),
                 const Text(
                   "Sign in with your email and password\nor continue with social media",

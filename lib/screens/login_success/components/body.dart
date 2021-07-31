@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:shop_ecommerce/components/default_button.dart';
+import 'package:shop_ecommerce/constants.dart';
 import 'package:shop_ecommerce/size_config.dart';
 
 class Body extends StatefulWidget {
@@ -23,11 +23,7 @@ class _BodyState extends State<Body> {
         SizedBox(height: SizeConfig.screenHeight! * 0.08),
         Text(
           "Login Success",
-          style: TextStyle(
-            fontSize: getProportionateScreenWidth(30),
-            fontWeight: FontWeight.bold,
-            color: Colors.black,
-          ),
+          style: headingStyle,
         ),
         const Spacer(),
         SizedBox(

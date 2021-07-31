@@ -23,11 +23,7 @@ class Body extends StatelessWidget {
               SizedBox(height: SizeConfig.screenHeight! * 0.04),
               Text(
                 "Forgot Password",
-                style: TextStyle(
-                  fontSize: getProportionateScreenWidth(28),
-                  color: Colors.black,
-                  fontWeight: FontWeight.bold,
-                ),
+                style: headingStyle,
               ),
               const Text(
                 "Please enter your email and we will send\nyou a link to return to your account",
