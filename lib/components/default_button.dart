@@ -10,7 +10,7 @@ class DefaultButton extends StatelessWidget {
   }) : super(key: key);
 
   final String text;
-  final VoidCallback press;
+  final GestureTapCallback press;
 
   @override
   Widget build(BuildContext context) {

@@ -10,7 +10,7 @@ class SocialCard extends StatelessWidget {
   }) : super(key: key);
 
   final String icon;
-  final VoidCallback press;
+  final GestureTapCallback press;
 
   @override
   Widget build(BuildContext context) {
