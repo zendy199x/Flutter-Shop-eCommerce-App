@@ -3,6 +3,7 @@ import 'package:shop_ecommerce/components/custom_suffix_icon.dart';
 import 'package:shop_ecommerce/components/default_button.dart';
 import 'package:shop_ecommerce/components/form_error.dart';
 import 'package:shop_ecommerce/constants.dart';
+import 'package:shop_ecommerce/screens/complete_profile/complete_profile_screen.dart';
 import 'package:shop_ecommerce/size_config.dart';
 
 class SignUpForm extends StatefulWidget {
@@ -17,7 +18,6 @@ class _SignUpFormState extends State<SignUpForm> {
   String? email;
   String? password;
   String? confirmPassword;
-  bool remember = false;
   final List<String> errors = [];
 
   void addError({required String error}) {
@@ -55,6 +55,7 @@ class _SignUpFormState extends State<SignUpForm> {
               if (_formKey.currentState!.validate()) {
                 _formKey.currentState!.save();
                 // if all are valid then go to success screen
+                Navigator.pushNamed(context, CompleteProfileScreen.routeName);
               }
             },
           ),
