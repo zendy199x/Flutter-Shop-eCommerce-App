@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 class SplashData {
   final String text;
   final String image;
