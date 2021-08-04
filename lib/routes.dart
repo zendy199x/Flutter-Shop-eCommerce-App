@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shop_ecommerce/screens/complete_profile/complete_profile_screen.dart';
+import 'package:shop_ecommerce/screens/details/details_screen.dart';
 import 'package:shop_ecommerce/screens/forgot_password/forgot_password_screen.dart';
 import 'package:shop_ecommerce/screens/home/home_screen.dart';
 import 'package:shop_ecommerce/screens/login_success/login_success_screen.dart';
@@ -19,4 +20,5 @@ final Map<String, WidgetBuilder> routes = {
   CompleteProfileScreen.routeName: (context) => const CompleteProfileScreen(),
   OTPScreen.routeName: (context) => const OTPScreen(),
   HomeScreen.routeName: (context) => const HomeScreen(),
+  DetailsScreen.routeName: (context) => const DetailsScreen(),
 };
