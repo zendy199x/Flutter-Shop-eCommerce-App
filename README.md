@@ -40,4 +40,10 @@
   <br/>
   <br/>
   <img src="/screenshots/screenshot_10.png" width="350">
+  <br/>
+  <br/>
+  <img src="/screenshots/screenshot_11.png" width="350">
+  <br/>
+  <br/>
+  <img src="/screenshots/screenshot_12.png" width="350">
 </p>
